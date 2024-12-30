@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Example with div, class, and ID</title>
+    <style>
+        /* Basic styling for the container */
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        
+        /* Styling for the header section */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        /* Styling for the content section */
+        .content {
+            font-size: 18px;
+            color: #333;
+        }
+
+        /* Styling for the button */
+        #myButton {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        /* Button hover effect */
+        #myButton:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <h1>Welcome to My Webpage</h1>
+        </div>
+        <div class="content">
+            <p>This is a simple example of using <code>&lt;div&gt;</code>, <code>class</code>, and <code>id</code> tags in HTML.</p>
+            <p>Below is a button styled with an ID selector:</p>
+            <button id="myButton">Click Me!</button>
+        </div>
+    </div>
+
+    <script>
+        // Adding a simple click event to the button
+        document.getElementById('myButton').addEventListener('click', function() {
+            alert('Button clicked!');
+        });
+    </script>
+</body>
+</html>

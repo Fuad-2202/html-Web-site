@@ -1,0 +1,53 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+/* Body and font settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    background-color: rgb(104, 181, 201);
+    color: rgb(194, 214, 82);
+}
+
+/* Header styling */
+header {
+    background: rgb(184, 171, 216);
+    color: rgb(15, 118, 214);
+    padding: 10px 0.5;
+    text-align: center;
+}
+
+header h1 {
+    margin: 100;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #bd6161;
+}
+
+/* Footer styling */
+footer {
+    background: #e0cbcb;
+    color: #743f3f;
+    text-align: center;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
